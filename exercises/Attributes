@@ -2,9 +2,14 @@
 <html>
 <title>HTML Tutorial</title>
 <body>
+<a href="http://maps.google.com">Google Maps are the best!</a>
+<a href="https://www.w3schools.com/">w3schools are the best!</a>
+
 
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 
 </body>
+<img src="https://goo.gl/jcdXn2">
+<img src="/images/img.jpg" alt="Coffee" width="50 height="60">
 </html>
