@@ -1,0 +1,32 @@
+OCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>rHTML Reference Page</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <h1>HTML Reference Page</h1>
+    
+    <h2>Paragraphs</h2>
+    <p>Description:Paragraphs are used to input information uder headings. These are used to both organize the text and isolate the text in order to put a specific style on the text in the paragraph.</p>
+    <h4>Syntax</h4>
+    <p>To start a paragraph you would start with a < p > and end with a < / p > </p>
+    <h4>Example</h4>
+    <p>A paragraph would be used usually under a heading. A paragraph is used for information to be seperat from the headign so it is better organized and easier when styling the paragraph.</p>
+    <h5>Display</h5>
+    <p>A paragraph in a browser looks like this: 
+    
+    This is a paragraph</p>
+    
+    <a href="url">link text</a>
+    
+    <h2>Headings</h2>
+    <p>Description: Headings are used mainly at the top of a page but they can also be used throughout the entore page. Headings usually show what you are going to talk about in your following paragaphs. Headings are very important for websites because they are what cathc the readers eyes and makes them want to read the following paragraphs.</p>
+    <h3>Syntax</h3>
+    <p></p>
+    
+  </body>
+</html>
