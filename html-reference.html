@@ -7,6 +7,13 @@
     <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
     
     <table style="width:100%">
   <tr>
@@ -14,54 +21,63 @@
     <th>Start Tag</th> 
     <th>End Tag</th>
     <th>Example</th>
+    <th>Link</th>
   </tr>
   <tr>
     <td>Paragraphs</td>
     <td>< p ></td> 
     <td>< /p ></td>
     <td>< p > This is a paragraph < /p ></td>
+    <td><a href="#paragraphs">link to Paragraphs</a></td>
   </tr>
   <tr>
     <td>Headings</td>
     <td>< h1></td> 
     <td>< /h1 ></td>
     <td>< h1 > This is a heading < /h1 ></td>
+    <td><a href="#Headings">link to Headings</a></td>
   </tr>
   <tr>
     <td>HTML</td>
     <td>< html ></td> 
     <td> < /html > </td>
     <td>< html > Enter website contents here < /html ></td>
+    <td><a href="#HTML">link to HTML</a></td>
   </tr>
    <tr>
     <td>Links</td>
     <td>< a ></td> 
     <td> < /a ></td>
     <td> < a href="url">link text< /a ></td>
+    <td><a href="#Links">link to Links</a></td>
   </tr>
    <tr>
     <td>Tables</td>
     <td>< tr ></td> 
     <td>< /tr ></td>
     <td>< td > enter table contents here < /td ></td>
+    <td><a href="#Tables">link to Tables</a></td>
   </tr>
    <tr>
     <td>Head</td>
     <td>< head ></td> 
     <td>< /head ></td>
     <td>< head > Title goes here < /head ></td>
+    <td><a href="#Head">link to Head</a></td>
   </tr>
    <tr>
     <td>Body</td>
     <td>< body ></td> 
     <td>< /body ></td>
     <td>< body> Main website information (paragraphs, tables ext..) < /head ></td>
+    <td><a href="#Body">link to Body</a></td>
   </tr>
    <tr>
     <td>Title</td>
     <td>< title ></td> 
     <td>< /title ></td>
     <td>< title Title goes here < /title ></td>
+    <td><a href="#Title">link to Title</a></td>
   </tr>
    <tr>
     <td>Lists</td>
@@ -71,41 +87,47 @@
     < ol > list contents
     < li> list contents
     < ul></td>
+    <td><a href="#Lists">link to Lists</a></td>
   </tr>
    <tr>
     <td>Breaks</td>
     <td>< br ></td> 
     <td>none</td>
     <td>This contains<br> a line break</td>
+    <td><a href="#Breaks">link to Breaks</a></td>
   </tr>
   <tr>
     <td>Images</td>
     <td>< img ></td> 
     <td>< /img ></td>
     <td><img src="wrongname.gif" alt="Flowers in Chania"></td>
+    <td><a href="#Images">link to Images</a></td>
   </tr>
   <tr>
     <td>Comments</td>
     <td>< !--</td> 
     <td>-- ></td>
     <td>< !-- This is a comment-- ></td>
+    <td><a href="#Comments">link to Comments</a></td>
   </tr>
   <tr>
     <td>Blocks</td>
     <td>< div ></td> 
     <td>< /div ></td>
     <td>< div >Hello< /div ></td>
+    <td><a href="#Blocks">link to Blocks</a></td>
   </tr>
   <tr>
     <td>Lines</td>
     <td>< hr ></td> 
     <td>< /hr ></td>
     <td>< p > < /p >  < hr >  < p > < /p ></td>
+    <td><a href="#Lines">link to Lines</a></td>
   </tr>
 </table>
     
     <h1>HTML Reference Page</h1>
-    
+    <a name="paragraphs"></a>
     <h1>Paragraphs</h1>
     <h2>Description</h2>
     <p>Paragraphs are used to input information uder headings. These are used to both organize the text and isolate the text in order to put a specific style on the text in the paragraph.</p>
@@ -120,6 +142,7 @@
     
     <a href="https://www.w3schools.com/html/html_paragraphs.asp">Paragraph w3schools link</a>
     
+    <a name="Headings"></a>
     <h2>Headings</h2>
     <p>Description: Headings are used mainly at the top of a page but they can also be used throughout the entore page. Headings usually show what you are going to talk about in your following paragaphs. Headings are very important for websites because they are what cathc the readers eyes and makes them want to read the following paragraphs.</p>
     <h3>Syntax</h3>
@@ -134,6 +157,7 @@
     
     <hr>
 
+    <a name="HTML"></a>
     <h2>HTML</h2>
     <h3>Description</h3>
     <p>HTML is mainly used to create websites. It is not a very complicated coding system to use, it appeals to the beginners because it allows them to be able to create there won website very easily and without hassle.</p>
@@ -149,6 +173,7 @@
     <hr>
     <hr>
 
+    <a name="Links"></a>
     <h2>Links</h2>
     <h3>Description</h3>
     <p>Links are commonly used in webpages to bring you to either a similiar sight or to something that relates to what you are looking at. Usually all you have to do to activate  link is click on it. It then takes you to a specific site that is connected to the link.</p>
@@ -164,6 +189,7 @@
     <hr>
     <hr>
 
+    <a name="Tables"></a>
     <h2>Tables</h2>
     <h3>Description</h3>
     <p>Tables in websites are mainly used for two reasons. Reason 1 is that they want the information to be organized so it is easier for the reader to understand and take in the information. And reason 2 is so that they can easily compare multiple peices of information from multiple things.</p>
@@ -203,6 +229,7 @@
     
     <hr>
 
+    <a name="Head"></a>
     <h2>Head</h2>
     <h3>Description</h3>
     <p>The < head > element is a container for metadata (data about data) and is placed between the < html > tag and the < body > tag.</p>
@@ -222,6 +249,7 @@
     <hr>
      <hr>
 
+    <a name="Body"></a>
     <h2>Body</h2>
     <h3>Description</h3>
     <p>The body element is sued thorughout all web pages, it is what conatains the amin part of the web page. It contains everything from paragraphs to tables. But most of the time it doesnt have the headings in it.</p>
@@ -242,6 +270,7 @@
     <hr>
      <hr>
 
+    <a name="Title"></a>
     <h2>Title</h2>
     <h3>Description</h3>
     <p>The title is basically used in every web page. It tells the reader what he/she is about to read and be informed about. The title is a very important part of the web page since it is the first thing that the reader sees and it makes or breaks the readers interest</p>
@@ -257,6 +286,7 @@
     <hr>
     <hr>
 
+    <a name="Lists"></a>
     <h2>Lists</h2>
     <h3>Description</h3>
     <p>A list is like a table or like bullet points. It takes the given information and turns it into either a bulleted list or a numbered list.</p>
@@ -283,6 +313,7 @@ But instead of drink you would input the information of you choice</p>
     <hr>
     <hr>
 
+    <a name="Breaks"></a>
     <h2>Breaks</h2>
     <h3>Description</h3>
     <p>The use of breaks is to provide a single line break in between 2 seperate lines. A break is also an empty tag meaning that it doesnt need an end tag.</p>
@@ -302,6 +333,7 @@ But instead of drink you would input the information of you choice</p>
     <hr>
     <hr>
 
+    <a name="Images"></a>
     <h2>Images</h2>
     <h3>Description</h3>
     <p>Images are not a necessary part of a web page. The main use of an image on a webpage is to add to the design of the website and make the reader more interested in the page and the information that is presented on the page.</p>
@@ -319,6 +351,7 @@ But instead of drink you would input the information of you choice</p>
     
     <hr>
 
+    <a name="Comments"></a>
     <h2>Comments</h2>
     <h3>Description</h3>
     <p>Comment tags are used to insert comments in the HTML source code.</p>
@@ -335,6 +368,7 @@ But instead of drink you would input the information of you choice</p>
     
     <hr>
 
+    <a name="Blocks"></a>
     <h2>Blocks</h2>
     <h3>Description</h3>
     <p>A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</p>
@@ -352,6 +386,7 @@ But instead of drink you would input the information of you choice</p>
     
     <hr>
 
+    <a name="Lines"></a>
     <h2>Lines</h2>
     <h3>Description</h3>
     <p>The tag defines a thematic break in an HTML page (e.g. a shift of topic). The element is used to separate content (or define a change) in an HTML page.</p>
