@@ -1,0 +1,30 @@
+.content {
+  background-color: #6495ED;
+}
+
+.content {
+  font-family:"Arial", sans-serif;
+  color:black;
+}
+
+img {
+  width:100%;
+}
+
+h2 {
+  border-style: solid;
+  border-width: 2px;
+  font-style: inherit;
+}
+
+
+p {
+    font-style: italic;
+    font-size: 15px;
+    border-style: solid;
+  border-width: 2px;
+}
+
+h1 {
+  font-style: oblique;
+  font-size: 50px;
